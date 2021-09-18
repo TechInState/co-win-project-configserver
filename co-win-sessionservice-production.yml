@@ -1,5 +1,8 @@
 work:
   profile: developer
+cowin
+  states_url: https://cdn-api.co-vin.in/api/v2/admin/location/states
+  districts_url: https://cdn-api.co-vin.in/api/v2/admin/location/districts
 eureka:
   client:
     register-with-eureka: true
