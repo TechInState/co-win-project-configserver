@@ -3,6 +3,8 @@ work:
 cowin:
   states_url: https://cdn-api.co-vin.in/api/v2/admin/location/states
   districts_url: https://cdn-api.co-vin.in/api/v2/admin/location/districts
+  sessionbypin_url: https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin
+  sessionbydistrict_url: https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict
 eureka:
   client:
     register-with-eureka: true
