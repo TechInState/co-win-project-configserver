@@ -1,1 +1,13 @@
-
+work:
+  profile: developer
+cowin:  
+  get_states_url_ss: http://localhost:9191/session/getStates
+  get_districts_url_ss: http://localhost:9191/session/getDistrictsForState
+  get_states_url_ds: http://localhost:9192/api/dataservice/getAllStates
+  get_districts_url_ds: http://localhost:9192/api/dataservice/getDistrictsForState
+  post_states_url_ds: http://localhost:9192/api/dataservice/addStatesList
+  post_districts_url_ds: http://localhost:9192/api/dataservice/addStateDistricts
+  get_sessionbydistrict_url: http://localhost:9191/session/getSessionsForDistrict
+  get_sessionbypin_url_ss: http://localhost:9191/session/getSessionsForPin
+server_instance:
+    hostname: localhost
